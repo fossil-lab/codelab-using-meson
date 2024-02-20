@@ -23,9 +23,9 @@ Welcome to the Fossil Learning Platform Codelab on using Meson! This codelab is 
    - Explanation of why Meson is chosen for this codelab.
 
 2. **Setting Up the Meson Build Environment:**
-   - Meson installation: `pip install meson`.
+   - Meson and Ninja installation: `python -m pip install meson ninja`.
    - Creating a basic Meson build configuration file (`meson.build`).
-   - Compiling the codelab project: `meson setup builddir` and `ninja -C builddir`.
+   - Compiling the codelab project: `meson setup builddir` and `meson compile -C builddir`.
 
 3. **Creating Custom Libraries:**
    - Steps to define and create custom libraries.
