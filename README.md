@@ -18,55 +18,53 @@ Welcome to the Fossil Learning Platform Codelab on using Meson! This codelab is 
 
 ## Codelab Structure:
 
-### Home
-- Overview of the entire codelab.
+1. **Introduction to Meson**
+   - Overview of Meson build system and its advantages.
 
-### 01: Introduction to Meson
-- Brief overview of Meson and its advantages.
-- Explanation of why Meson is chosen for this codelab.
+2. **Setting Up Meson**
+   - Installing and configuring Meson for your project.
 
-### 02: Setting Up the Meson Build Environment
-- Meson installation: `pip install meson`.
-- Creating a basic Meson build configuration file (`meson.build`).
-- Compiling the codelab project: `meson setup builddir` and `meson compile -C builddir`.
+3. **Using Setup and Configure**
+   - Detailed guide on using `setup` and `configure` commands.
 
-### 03: Creating Custom Libraries with Meson
-- Steps to define and create custom libraries using Meson.
-- Guidance on structuring libraries for educational content.
+4. **Using Meson Compile**
+   - Compilation process and options using `meson compile`.
 
-### 04: Integrating Libraries into Meson Build System
-- Detailed instructions on integrating custom libraries into Meson.
-- Demonstration of how Meson simplifies the build process.
+5. **Using Meson Test**
+   - Running tests for the configured Meson project.
 
-### 05: Building and Testing the Codelab Project with Meson
-- Utilizing Meson for building and testing the codelab project.
-- Verification of the integration of custom libraries.
+6. **Using Meson Subprojects**
+   - Managing and working with Meson subprojects.
 
-### 07: Tips and Tricks for Using Meson Build System
-- Use of Meson Wrap for Dependencies.
-- Leveraging Configuration Options.
-- Exploring Cross-Compilation.
-- Conditional Feature Activation.
-- Optimizing Compilation Flags.
-- Building for Debugging.
-- Creating Custom Targets.
-- Exploring Meson Subprojects.
-- Joining the Meson Community.
+7. **Using Meson Install**
+   - Installing the project with insights into options and configurations.
 
-### 08: Meson WrapDB and Subprojects
-- Meson WrapDB: Simplifying dependency management.
-- Meson Subprojects: Managing external projects seamlessly.
+8. **Using Meson Rewrite**
+   - Modifying the Meson project using the `rewrite` command.
 
-### 09: Challenges in Using Meson Build System
-- Learning Curve.
-- Limited Language Support.
-- Limited IDE Support.
-- Advanced Build Scenarios.
-- Community and Ecosystem Size.
+9. **Using Meson Introspect**
+   - Displaying detailed information about the configured Meson project.
 
-### 10: Hands-On Challenge
-- Set up a custom build for a simple C project using Meson.
-- Explore features like conditional compilation and cross-compilation.
+10. **Building and Testing**
+    - Practical guide on building and testing a Meson project.
+
+11. **Integrating Libraries**
+    - Incorporating external libraries into the Meson build system.
+
+12. **Creating Custom Libraries**
+    - Creating custom libraries and integrating them into the project.
+
+13. **Tips and Tricks for Using Meson Build System**
+    - Best practices, tips, and tricks for efficient Meson usage.
+
+14. **Meson WrapDB and Subprojects**
+    - Exploring Meson WrapDB and working with subprojects.
+
+15. **Challenges in Using Meson Build System**
+    - Discussing common challenges and how to overcome them.
+
+16. **Hands-On Challenge**
+    - Engaging hands-on challenge to apply Meson knowledge.
 
 ## Fossil Updater tool
 
