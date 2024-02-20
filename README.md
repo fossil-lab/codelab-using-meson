@@ -6,8 +6,8 @@ Welcome to the Fossil Learning Platform Codelab on using Meson! This codelab is 
 
 ## Codelab Overview:
 
-- **Title:** Hands-on how to for Meson Build System
-- **Objective:** Learn how to use the Meson build system, work with modules, and integrate Fossil Logic Core library into educational materials.
+- **Title:** Hands-on how-to for Meson Build System
+- **Objective:** Learn how to use the Meson build system.
 - **Duration:** Approximately at your own pace
 
 ## Prerequisites:
