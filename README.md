@@ -18,30 +18,55 @@ Welcome to the Fossil Learning Platform Codelab on using Meson! This codelab is 
 
 ## Codelab Structure:
 
-1. **Introduction to Meson:**
-   - Brief overview of Meson and its advantages.
-   - Explanation of why Meson is chosen for this codelab.
+### Home
+- Overview of the entire codelab.
 
-2. **Setting Up the Meson Build Environment:**
-   - Meson and Ninja installation: `python -m pip install meson ninja`.
-   - Creating a basic Meson build configuration file (`meson.build`).
-   - Compiling the codelab project: `meson setup builddir` and `meson compile -C builddir`.
+### 01: Introduction to Meson
+- Brief overview of Meson and its advantages.
+- Explanation of why Meson is chosen for this codelab.
 
-3. **Creating Custom Libraries:**
-   - Steps to define and create custom libraries.
-   - Guidance on structuring libraries for educational content.
+### 02: Setting Up the Meson Build Environment
+- Meson installation: `pip install meson`.
+- Creating a basic Meson build configuration file (`meson.build`).
+- Compiling the codelab project: `meson setup builddir` and `meson compile -C builddir`.
 
-4. **Integrating Libraries into Meson Build System:**
-   - Detailed instructions on integrating custom libraries into Meson.
-   - Demonstration of how Meson simplifies the build process.
+### 03: Creating Custom Libraries with Meson
+- Steps to define and create custom libraries using Meson.
+- Guidance on structuring libraries for educational content.
 
-5. **Building and Testing the Codelab Project:**
-   - Utilizing Meson for building and testing the codelab project.
-   - Verifying the integration of custom libraries.
+### 04: Integrating Libraries into Meson Build System
+- Detailed instructions on integrating custom libraries into Meson.
+- Demonstration of how Meson simplifies the build process.
 
-6. **Publishing Your Interactive Codelab:**
-   - Steps to publish and share your codelab with others.
-   - Tips for creating engaging and dynamic content for educational purposes.
+### 05: Building and Testing the Codelab Project with Meson
+- Utilizing Meson for building and testing the codelab project.
+- Verification of the integration of custom libraries.
+
+### 07: Tips and Tricks for Using Meson Build System
+- Use of Meson Wrap for Dependencies.
+- Leveraging Configuration Options.
+- Exploring Cross-Compilation.
+- Conditional Feature Activation.
+- Optimizing Compilation Flags.
+- Building for Debugging.
+- Creating Custom Targets.
+- Exploring Meson Subprojects.
+- Joining the Meson Community.
+
+### 08: Meson WrapDB and Subprojects
+- Meson WrapDB: Simplifying dependency management.
+- Meson Subprojects: Managing external projects seamlessly.
+
+### 09: Challenges in Using Meson Build System
+- Learning Curve.
+- Limited Language Support.
+- Limited IDE Support.
+- Advanced Build Scenarios.
+- Community and Ecosystem Size.
+
+### 10: Hands-On Challenge
+- Set up a custom build for a simple C project using Meson.
+- Explore features like conditional compilation and cross-compilation.
 
 ## Fossil Updater tool
 
