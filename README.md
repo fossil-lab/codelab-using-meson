@@ -1,42 +1,43 @@
-# Fossil Learning Platform (FLLP) Codelab Template
+# Fossil Learning Platform using Meson Codelab
 
 ## Abstract:
 
-Welcome to the Fossil Learning Platform (FLLP) Codelab Template! This template is designed to help you create interactive and educational codelabs that utilize the Fossil Logic Libraries (FLL) within the Fossil Learning Platform. These codelabs are built using the Meson build system, making it easy for learners to set up and follow along.
+Welcome to the Fossil Learning Platform Codelab on using Meson! This codelab is designed to guide you through the process of working with the Meson build system while integrating the Fossil Logic Core library (FLL) for educational content. By the end, you'll have a better understanding of setting up Meson, creating custom libraries with FLL, and incorporating them into your educational materials.
 
 ## Codelab Overview:
 
-- **Title:** Creating Dynamic Content with Fossil Logic Libraries in FLLP
-- **Objective:** Learn how to integrate Fossil Logic Libraries into the Fossil Learning Platform for dynamic and engaging educational content.
-- **Duration:** Approximately 30 minutes
+- **Title:** Hands-on how to for Meson Build System
+- **Objective:** Learn how to use the Meson build system, work with modules, and integrate Fossil Logic Core library into educational materials.
+- **Duration:** Approximately at your own pace
 
 ## Prerequisites:
 
-- Basic knowledge of Fossil Logic Libraries (FLL).
-- Familiarity with the Meson build system.
-- Have Python 3 on your host system
+- Working local host system/computer.
+- Familiarity with the command line.
+- Python 3 installed on your host system.
 
 ## Codelab Structure:
 
-1. **Introduction to FLLP Integration:**
-   - Overview of FLLP and its role in creating interactive learning materials.
-   - Explanation of how FLL can be seamlessly integrated into FLLP.
+1. **Introduction to Meson:**
+   - Brief overview of Meson and its advantages.
+   - Explanation of why Meson is chosen for this codelab.
 
-2. **Setting Up the Codelab Environment:**
-   - Meson build system setup: `meson setup builddir`.
-   - Compilation of the codelab project: `meson compile -C builddir`.
+2. **Setting Up the Meson Build Environment:**
+   - Meson installation: `pip install meson`.
+   - Creating a basic Meson build configuration file (`meson.build`).
+   - Compiling the codelab project: `meson setup builddir` and `ninja -C builddir`.
 
 3. **Creating Custom Libraries with FLL:**
    - Steps to define and create custom libraries using FLL.
    - Guidance on structuring libraries for educational content.
 
-4. **Integrating FLL into FLLP:**
-   - Detailed instructions on integrating FLL libraries into FLLP.
-   - Demonstration of how FLL enhances interactive components within educational materials.
+4. **Integrating FLL into Meson Build System:**
+   - Detailed instructions on integrating FLL libraries into Meson.
+   - Demonstration of how Meson simplifies the build process.
 
 5. **Building and Testing the Codelab Project:**
    - Utilizing Meson for building and testing the codelab project.
-   - Verifying the integration of FLLP and FLL libraries.
+   - Verifying the integration of FLL libraries.
 
 6. **Publishing Your Interactive Codelab:**
    - Steps to publish and share your codelab with others.
@@ -44,16 +45,16 @@ Welcome to the Fossil Learning Platform (FLLP) Codelab Template! This template i
 
 ## Fossil Updater tool
 
-If you want to install a tool to help manage Meson and Ninja build installations feel free to to use our Fossil Logic Tool for managing updates Fossil Updater:
+To simplify Meson and Ninja build installations, use our Fossil Logic Tool for managing updates, Fossil Updater:
 
 ```bash
 pip install git+https://github.com/dreamer-coding-555/fossil-updater.git
 ```
 
-This command will download the project and install it without the need to clone the repository first.
+This command will download and install the project without the need to clone the repository first.
 
 ## Conclusion:
 
-Congratulations! You have successfully completed the "Creating Dynamic Content with Fossil Logic Libraries in FLLP" codelab. Feel free to adapt this template for your own codelabs, exploring different aspects of FLLP and FLL.
+Congratulations! You have successfully completed the "Meson Build System with Fossil Logic Core Library" codelab. Feel free to adapt this template for your own codelabs, exploring different aspects of Meson and FLL.
 
-Happy coding and learning with Fossil Logic and FLLP! 🚀
+Happy coding and learning with Meson and Fossil Logic! 🚀
